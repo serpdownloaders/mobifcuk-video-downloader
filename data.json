@@ -1,0 +1,212 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/mobifcuk-downloader",
+  "serply_link": "https://serp.ly/mobifcuk-downloader",
+  "app_name": "Mobifcuk Video Downloader",
+  "short_description": "Download & Save Mobifcuk Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "This extension is built around the specific page shape found on MobiFcuk, where video content lives on root-level article slug pages and playback often shifts into an embedded iframe. Rather than assuming a simple video page, this tool works with the actual page structure — waiting for the iframe handoff and surfacing only the media formats that are grounded in the verified page behavior.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/mobifcuk-downloader-fullscreen-01-a8d3bb2d30.webp",
+    "https://apps.serp.co/media/optimized-products/mobifcuk-downloader-fullscreen-02-744805fa5a.webp",
+    "https://apps.serp.co/media/optimized-products/mobifcuk-downloader-fullscreen-03-fd7b682b30.webp",
+    "https://apps.serp.co/media/optimized-products/mobifcuk-downloader-fullscreen-04-5548d4263f.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "Does this extension work on all MobiFcuk pages?",
+      "answer": "It is designed for root-level article slug pages where playback shifts into an iframe. Other page types may not be supported."
+    },
+    {
+      "question": "What media formats can it download?",
+      "answer": "The extension inspects m3u8 playlists and mp4 files that become visible through the iframe handoff workflow."
+    },
+    {
+      "question": "Is the extension ready for daily use?",
+      "answer": "The target is verified and marked as ready, but stale configuration files and a generated stub note mean the release should be treated as a candidate-stage tool rather than a fully polished product."
+    },
+    {
+      "question": "Do I need an account to use it?",
+      "answer": "You can use 3 free downloads without an account. A paid license with email sign-in is required for unlimited use."
+    },
+    {
+      "question": "Why does the extension mention mobile-ish branding?",
+      "answer": "The MobiFcuk name suggests a mobile tone, but the packet does not prove a mobile app. The wording stays descriptive rather than speculative."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "Archiving content that you have permission to save locally"
+    },
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "Built for MobiFcuk's root-level article slug route pattern",
+    "Works with the iframe playback handoff workflow",
+    "Inspects m3u8 and mp4 sources as they become available",
+    "Respects the mobile-ish brand naming without overpromising",
+    "Verified target readiness with honest rollout caveats",
+    "Purpose-built for MobiFcuk root-level article slug pages",
+    "Works with the iframe playback handoff pattern",
+    "Clean popup interface for media detection and download",
+    "No unnecessary feature bloat — focused on what the page actually supports",
+    "Verified target readiness status with transparent rollout notes",
+    "Lightweight extension that respects browser performance",
+    "Regular updates aligned with page structure changes"
+  ],
+  "content": {
+    "why": [
+      "MobiFcuk pages follow a specific pattern that differs from typical video sites. Instead of a clean video page with direct media links, content lives on root-level article slug pages like /dad-couldnt-resist/. The actual playback often shifts into an embedded iframe before any m3u8 playlist or mp4 file becomes visible. This page structure makes it harder to find and save media using generic downloaders.",
+      "This extension is designed around that exact workflow. It understands the root-level slug route shape, waits for the iframe handoff, and inspects only the media sources that are grounded in the verified page behavior. The tool keeps its claims tight — targeting m3u8 and mp4 formats, respecting the mobile-ish brand naming, and maintaining honest caveats about the current readiness stage."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open MobiFcuk and go to a supported root-level article slug page.",
+      "Start playback so the iframe handoff can complete.",
+      "Open the popup to inspect available media sources.",
+      "Review the detected m3u8 or mp4 options.",
+      "Start the download and wait for the export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Install the Mobifcuk Downloader extension from the latest GitHub release.",
+      "Navigate to a MobiFcuk page with a root-level article slug, such as /dad-couldnt-resist/.",
+      "Allow the page to load fully, including any embedded iframe content.",
+      "Start video playback so the iframe handoff can complete and media sources become visible.",
+      "Click the extension icon in your browser toolbar to open the popup.",
+      "Wait for the popup to detect available media sources from the iframe.",
+      "Review the detected m3u8 or mp4 options and choose the one you want.",
+      "Click the download button and save the exported file to your device."
+    ],
+    "supported_formats": [
+      "Input: m3u8 playlists and mp4 files exposed through iframe playback handoff on MobiFcuk root-level article slug pages",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "Users who visit MobiFcuk and want to save videos from root-level article slug pages",
+      "People who understand that playback happens inside an iframe rather than on the main page",
+      "Viewers who prefer local media archives over streaming-dependent access",
+      "Users who appreciate honest tooling that respects actual page behavior rather than overpromising"
+    ],
+    "use_cases": [
+      "Downloading a video from a MobiFcuk article slug page for offline viewing",
+      "Archiving content that you have permission to save locally",
+      "Building a personal media library from MobiFcuk sources",
+      "Testing iframe handoff workflows and media source detection",
+      "Evaluating the extension before committing to a paid license"
+    ],
+    "troubleshooting": [
+      "The popup shows no media sources after starting playback. Make sure the iframe has fully loaded and playback has begun. Some pages require a short wait before sources become visible.",
+      "The download fails or produces a broken file. Check your internet connection and ensure the source is still available. Some m3u8 playlists require the full stream to be accessible.",
+      "The extension does not activate on a MobiFcuk page. Verify you are on a supported root-level article slug page. The extension is designed for pages directly under the site root.",
+      "I see an error about stale configuration. The extension is still in a verified-target readiness stage. Updates will address configuration refinements as the project matures.",
+      "The download button is grayed out. You may have used your free trial downloads. Sign in with email to check your license status."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported MobiFcuk root-level article slug page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "The extension works with root-level article slug pages, not standard video library routes",
+      "The iframe handoff process may require patience as playback sources become visible"
+    ],
+    "about": [
+      "MobiFcuk is a website that hosts video content on root-level article slug pages. The extension helps users navigate the iframe playback handoff pattern and inspect available media sources from those pages."
+    ]
+  },
+  "serpx_link": "https://serpx.link/mobifcuk-downloader",
+  "github_topics": [
+    "mobifcuk-download",
+    "mobifcuk-downloader",
+    "mobifcuk-video-downloader",
+    "mobifcuk-video-downloader-online",
+    "mobifcuk-video-downloader-mac",
+    "mobifcuk-video-downloader-window",
+    "mobifcuk-video-downloader-free",
+    "mobifcuk-video-downloader-extension",
+    "mobifcuk-video-downloader-app",
+    "mobifcuk-video-downloader-chrome",
+    "mobifcuk-video-downloader-from-url",
+    "how-to-download-mobifcuk-videos",
+    "how-to-download-mobifcuk-videos-mac",
+    "how-to-download-mobifcuk-videos-windows",
+    "how-to-download-mobifcuk-videos-online",
+    "how-to-download-mobifcuk-videos-free",
+    "how-to-download-from-mobifcuk",
+    "how-to-download-videos-from-mobifcuk",
+    "download-mobifcuk-videos",
+    "mobifcuk-video-tutorial",
+    "save-mobifcuk-videos",
+    "mobifcuk-video-content-saver",
+    "how-to-download-mobifcuk-videos-for-free"
+  ],
+  "hashtags": [
+    "#MobifcukDownload",
+    "#MobifcukDownloader",
+    "#MobifcukVideoDownloader",
+    "#MobifcukVideoDownloaderOnline",
+    "#MobifcukVideoDownloaderMac",
+    "#MobifcukVideoDownloaderWindow",
+    "#MobifcukVideoDownloaderFree",
+    "#MobifcukVideoDownloaderExtension",
+    "#MobifcukVideoDownloaderApp",
+    "#MobifcukVideoDownloaderChrome",
+    "#MobifcukVideoDownloaderFromURL",
+    "#HowToDownloadMobifcukVideos",
+    "#HowToDownloadMobifcukVideosMac",
+    "#HowToDownloadMobifcukVideosWindows",
+    "#HowToDownloadMobifcukVideosOnline",
+    "#HowToDownloadMobifcukVideosFree",
+    "#HowToDownloadFromMobifcuk",
+    "#HowToDownloadVideosFromMobifcuk",
+    "#DownloadMobifcukVideos",
+    "#MobifcukVideoTutorial",
+    "#SaveMobifcukVideos",
+    "#MobifcukVideoContentSaver",
+    "#HowToDownloadMobifcukVideosForFree"
+  ],
+  "youtube_tags": [
+    "Mobifcuk Download",
+    "Mobifcuk Downloader",
+    "Mobifcuk Video Downloader",
+    "Mobifcuk Video Downloader Online",
+    "Mobifcuk Video Downloader Mac",
+    "Mobifcuk Video Downloader Window",
+    "Mobifcuk Video Downloader Free",
+    "Mobifcuk Video Downloader Extension",
+    "Mobifcuk Video Downloader App",
+    "Mobifcuk Video Downloader Chrome",
+    "Mobifcuk Video Downloader From URL",
+    "How To Download Mobifcuk Videos",
+    "How To Download Mobifcuk Videos Mac",
+    "How To Download Mobifcuk Videos Windows",
+    "How To Download Mobifcuk Videos Online",
+    "How To Download Mobifcuk Videos Free",
+    "How To Download From Mobifcuk",
+    "How To Download Videos From Mobifcuk",
+    "Download Mobifcuk Videos",
+    "Mobifcuk Video Tutorial",
+    "Save Mobifcuk Videos",
+    "Mobifcuk Video Content Saver",
+    "How To Download Mobifcuk Videos For Free"
+  ]
+}
